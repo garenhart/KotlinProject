@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     println("Hello from Kotlin!")
     CustomClass("Garen").saySomething()
     println(MyJavaClass().value)
-    println(CustomClass("Anush").getValue())
+    println(CustomClass("Garen").getValue())
 }
 
 class CustomClass(val name: String) {
